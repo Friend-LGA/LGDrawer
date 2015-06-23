@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A2C387D1B0A6EB800256BD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C387C1B0A6EB800256BD3 /* main.m */; };
+		4A2C38801B0A6EB800256BD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C387F1B0A6EB800256BD3 /* AppDelegate.m */; };
+		4A2C38831B0A6EB800256BD3 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C38821B0A6EB800256BD3 /* CollectionViewController.m */; };
+		4A2C38881B0A6EB800256BD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C38871B0A6EB800256BD3 /* Images.xcassets */; };
+		4A2C38A21B0A702000256BD3 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C38A11B0A702000256BD3 /* NavigationController.m */; };
+		AD4D6B751F06D84AA322A024 /* libPods-LGDrawerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C0E61C7613F3ED54226A26 /* libPods-LGDrawerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39D0CCE26DB059A7345A6490 /* Pods-LGDrawerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGDrawerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGDrawerDemo/Pods-LGDrawerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		49C0E61C7613F3ED54226A26 /* libPods-LGDrawerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGDrawerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2C38771B0A6EB800256BD3 /* LGDrawerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGDrawerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2C387B1B0A6EB800256BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2C387C1B0A6EB800256BD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A2C387E1B0A6EB800256BD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A2C387F1B0A6EB800256BD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A2C38811B0A6EB800256BD3 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		4A2C38821B0A6EB800256BD3 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		4A2C38871B0A6EB800256BD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A2C38A01B0A702000256BD3 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		4A2C38A11B0A702000256BD3 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		FB15FD2CD12A1FAA9A9C78EF /* Pods-LGDrawerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGDrawerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGDrawerDemo/Pods-LGDrawerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2C38741B0A6EB800256BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4D6B751F06D84AA322A024 /* libPods-LGDrawerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB6AA5B81C4012EB303FD9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39D0CCE26DB059A7345A6490 /* Pods-LGDrawerDemo.debug.xcconfig */,
+				FB15FD2CD12A1FAA9A9C78EF /* Pods-LGDrawerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A2C386E1B0A6EB700256BD3 = {
+			isa = PBXGroup;
+			children = (
+				4A2C38791B0A6EB800256BD3 /* LGDrawerDemo */,
+				4A2C38781B0A6EB800256BD3 /* Products */,
+				1CB6AA5B81C4012EB303FD9E /* Pods */,
+				9D3D908F376D39CF3C97C253 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A2C38781B0A6EB800256BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C38771B0A6EB800256BD3 /* LGDrawerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A2C38791B0A6EB800256BD3 /* LGDrawerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C387E1B0A6EB800256BD3 /* AppDelegate.h */,
+				4A2C387F1B0A6EB800256BD3 /* AppDelegate.m */,
+				4A2C38A01B0A702000256BD3 /* NavigationController.h */,
+				4A2C38A11B0A702000256BD3 /* NavigationController.m */,
+				4A2C38811B0A6EB800256BD3 /* CollectionViewController.h */,
+				4A2C38821B0A6EB800256BD3 /* CollectionViewController.m */,
+				4A2C38871B0A6EB800256BD3 /* Images.xcassets */,
+				4A2C387A1B0A6EB800256BD3 /* Supporting Files */,
+			);
+			path = LGDrawerDemo;
+			sourceTree = "<group>";
+		};
+		4A2C387A1B0A6EB800256BD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C387B1B0A6EB800256BD3 /* Info.plist */,
+				4A2C387C1B0A6EB800256BD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D3D908F376D39CF3C97C253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49C0E61C7613F3ED54226A26 /* libPods-LGDrawerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A2C38761B0A6EB800256BD3 /* LGDrawerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2C389A1B0A6EB800256BD3 /* Build configuration list for PBXNativeTarget "LGDrawerDemo" */;
+			buildPhases = (
+				8F6B079C2D06773FCC0A341B /* Check Pods Manifest.lock */,
+				4A2C38731B0A6EB800256BD3 /* Sources */,
+				4A2C38741B0A6EB800256BD3 /* Frameworks */,
+				4A2C38751B0A6EB800256BD3 /* Resources */,
+				8DE4EB7919C6794CDF7F2A37 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGDrawerDemo;
+			productName = LGDrawerDemo;
+			productReference = 4A2C38771B0A6EB800256BD3 /* LGDrawerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A2C386F1B0A6EB700256BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Grigory Lutkov";
+				TargetAttributes = {
+					4A2C38761B0A6EB800256BD3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A2C38721B0A6EB700256BD3 /* Build configuration list for PBXProject "LGDrawerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A2C386E1B0A6EB700256BD3;
+			productRefGroup = 4A2C38781B0A6EB800256BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A2C38761B0A6EB800256BD3 /* LGDrawerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2C38751B0A6EB800256BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2C38881B0A6EB800256BD3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DE4EB7919C6794CDF7F2A37 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGDrawerDemo/Pods-LGDrawerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6B079C2D06773FCC0A341B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A2C38731B0A6EB800256BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2C38831B0A6EB800256BD3 /* CollectionViewController.m in Sources */,
+				4A2C38A21B0A702000256BD3 /* NavigationController.m in Sources */,
+				4A2C38801B0A6EB800256BD3 /* AppDelegate.m in Sources */,
+				4A2C387D1B0A6EB800256BD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A2C38981B0A6EB800256BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A2C38991B0A6EB800256BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A2C389B1B0A6EB800256BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D0CCE26DB059A7345A6490 /* Pods-LGDrawerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LGDrawerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A2C389C1B0A6EB800256BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB15FD2CD12A1FAA9A9C78EF /* Pods-LGDrawerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LGDrawerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2C38721B0A6EB700256BD3 /* Build configuration list for PBXProject "LGDrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2C38981B0A6EB800256BD3 /* Debug */,
+				4A2C38991B0A6EB800256BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2C389A1B0A6EB800256BD3 /* Build configuration list for PBXNativeTarget "LGDrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2C389B1B0A6EB800256BD3 /* Debug */,
+				4A2C389C1B0A6EB800256BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A2C386F1B0A6EB700256BD3 /* Project object */;
+}

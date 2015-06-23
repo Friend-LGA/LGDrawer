@@ -1,0 +1,14 @@
+PODS:
+  - LGDrawer (1.0.0)
+
+DEPENDENCIES:
+  - LGDrawer (from `../`)
+
+EXTERNAL SOURCES:
+  LGDrawer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGDrawer: 7ceea97b27a6b23e8eb691210ca180c897025513
+
+COCOAPODS: 0.37.2
