@@ -31,7 +31,7 @@
 
 @interface LGDrawer : NSObject
 
-typedef enum
+typedef NS_ENUM(NSUInteger, LGDrawerDirection)
 {
     // стороны
     LGDrawerDirectionTop    = 0,
@@ -48,10 +48,9 @@ typedef enum
     LGDrawerDirectionLeftBottom  = LGDrawerDirectionBottomLeft,
     LGDrawerDirectionBottomRight = 7,
     LGDrawerDirectionRightBottom = LGDrawerDirectionBottomRight
-}
-LGDrawerDirection;
+};
 
-typedef enum
+typedef NS_ENUM(NSUInteger, LGDrawerLineDirection)
 {
     LGDrawerLineDirectionHorizontal       = 0,
     LGDrawerLineDirectionVertical         = 1,
@@ -59,23 +58,20 @@ typedef enum
     LGDrawerLineDirectionDiagonalRightTop = LGDrawerLineDirectionDiagonalTopRight,
     LGDrawerLineDirectionDiagonalTopLeft  = 3,
     LGDrawerLineDirectionDiagonalLeftTop  = LGDrawerLineDirectionDiagonalTopLeft
-}
-LGDrawerLineDirection;
+};
 
-typedef enum
+typedef NS_ENUM(NSUInteger, LGDrawerMenuDotsPosition)
 {
     LGDrawerMenuDotsPositionLeft  = 0,
     LGDrawerMenuDotsPositionRight = 1,
-}
-LGDrawerMenuDotsPosition;
+};
 
-typedef enum
+typedef NS_ENUM(NSUInteger, LGDrawerStrokeType)
 {
-    LGDrawerStrokeTypeInside,
-    LGDrawerStrokeTypeCenter,
-    LGDrawerStrokeTypeOutside
-}
-LGDrawerStrokeType;
+    LGDrawerStrokeTypeInside  = 0,
+    LGDrawerStrokeTypeCenter  = 1,
+    LGDrawerStrokeTypeOutside = 2
+};
 
 + (instancetype)alloc __attribute__((unavailable("use + methods")));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable("use + methods")));
