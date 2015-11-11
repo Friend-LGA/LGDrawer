@@ -38,7 +38,7 @@ typedef enum
     LGDrawerDirectionBottom = 1,
     LGDrawerDirectionLeft   = 2,
     LGDrawerDirectionRight  = 3,
-    
+
     // углы
     LGDrawerDirectionTopLeft     = 4,
     LGDrawerDirectionLeftTop     = LGDrawerDirectionTopLeft,
@@ -216,7 +216,7 @@ LGDrawerStrokeType;
 #pragma mark - Line
 
 + (UIImage *)drawLineWithImageSize:(CGSize)imageSize
-                              length:(CGFloat)length
+                            length:(CGFloat)length
                             offset:(CGPoint)offset
                             rotate:(CGFloat)degrees
                          thickness:(CGFloat)thickness
